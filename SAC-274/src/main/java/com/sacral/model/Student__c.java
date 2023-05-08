@@ -4,10 +4,11 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Student__c {
-
+public class Student__c { 
+    
     @Id
     private Long id;
+    
     private String mobile;
 
     public Long getId() {
